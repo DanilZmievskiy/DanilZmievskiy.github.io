@@ -29,6 +29,11 @@ p {
 	margin: 0 auto;
 }
 
+.course-title {
+	color: #5C8F7F;
+	margin-bottom: 20px;
+}
+
 .content-wrap {
 	display: flex;
 	padding: 40px 120px;
