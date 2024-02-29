@@ -29,7 +29,7 @@ p {
 	margin: 0 auto;
 }
 
-.course-title {
+.course-title, h2 {
 	color: #5C8F7F;
 	margin-bottom: 20px;
 }
