@@ -49,12 +49,12 @@ header {
 	text-align: center;
 	flex-shrink: 1;
 	padding: 0.2em 1em;
-	border: 1px solid transperent;
+	border: 1px solid transparent;
 	transition: border 0.1s;
 }
 
 .nav-link:hover {
-	border: 1px solid #333333;
+	border-color: #333333;
 }
 
 .main-link {
