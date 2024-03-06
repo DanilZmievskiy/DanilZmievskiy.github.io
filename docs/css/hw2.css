@@ -49,6 +49,7 @@ header {
 	text-align: center;
 	flex-shrink: 1;
 	padding: 0.2em 1em;
+	border: 1px solid transperent;
 	transition: border 0.1s;
 }
 
