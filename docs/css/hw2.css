@@ -12,7 +12,7 @@ body {
 h1 {
 	padding: 0;
 	margin: 0;
-	font-size: 57px;
+	font-size: 3.5625rem;
 }
 
 header, section {
@@ -29,7 +29,8 @@ header {
 
 .logo {
 	display: block;
-	width: 70px;
+	max-width: 80px;
+	min-width: 60px;
 	margin-right: 25%;
 }
 
@@ -146,6 +147,8 @@ header {
 .logo-white {
 	grid-column: 1 / 2;
 	display: block;
+	max-width: 100%;
+	min-width: 100px;
 }
 
 .contacts-info {
@@ -165,5 +168,39 @@ header {
 .socials-icons i {
 	display: block;
 	font-size: 1.5em;
+}
+
+/* Photo Gallery*/
+
+.photos-wrapper {
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.photos-wrapper > img {
+	max-width: 100%;
+}
+
+
+@media (max-width: 660px) {
+	.footer-content {
+		grid-template-columns: 1fr;
+		gap: 10px;
+	}
+
+	.contacts-info {
+		grid-column: 1 / 2;
+	}
+
+	.socials-info {
+		grid-column: 1 / 2;
+		justify-self: start;
+	}
+
+	.logo-white {
+		margin: 0 auto;
+	}
 }
 
